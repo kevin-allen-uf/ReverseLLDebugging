@@ -1,0 +1,12 @@
+Bugs to Fix - Based on ReverseLLDebugging.cpp line numbers
+FORMAT: LINE # - INSTRUCTION ("" denotes code)
+----------------------------------------------
+4 - create new line and add "include <iostream>
+33 - fix "Node next" to "Node* next"
+66 - fix "curr != nullptr" to "curr == nullptr"
+70 - fix "reverseHelp(curr->getNext, curr)" to "reverseHelp(curr, curr->getNext())"
+71 - create new line and add "return newHead"
+97 - fix "Node(five)" to "Node(five, 5)"
+98 - fix "Node(four)" to "Node(four, 4)"
+99 - fix "Node(three)" to "Node(three, 3)"
+100 - fix "Node(two)" to "Node(two, 2)"
